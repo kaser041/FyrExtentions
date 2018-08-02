@@ -1,0 +1,19 @@
+{
+	"name": "fyr-linter-and-ide-integration",
+	"description": "VSCode part of a language server",
+	"author": "Kaser mahmoud",
+	"license": "MIT",
+	"version": "0.0.1",
+	"publisher": "vscode",
+	"engines": {
+		"vscode": "^1.23.0"
+	},
+	"scripts": {
+		"update-vscode": "node ./node_modules/vscode/bin/install",
+		"postinstall": "node ./node_modules/vscode/bin/install"
+	},
+	"dependencies": {
+		"vscode": "^1.1.18",
+		"vscode-languageclient": "^4.1.4"
+	}
+}

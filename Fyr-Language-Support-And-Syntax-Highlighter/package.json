@@ -1,0 +1,26 @@
+{
+    "name": "fyr",
+    "displayName": "Fyr Linter",
+    "description": "Fyr Language suport and syntax highlighter",
+    "version": "0.0.1",
+    "publisher": "Kaser Mahmoud",
+    "engines": {
+        "vscode": "^1.25.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "fyr",
+            "aliases": ["Fyr", "fyr"],
+            "extensions": ["fyr"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "fyr",
+            "scopeName": "source.fyr",
+            "path": "./syntaxes/fyr.tmLanguage.json"
+        }]
+    }
+}

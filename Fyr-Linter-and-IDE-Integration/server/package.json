@@ -1,0 +1,14 @@
+{
+	"name": "fyr-linter-and-ide-integration",
+	"description": "Example implementation of a language server in node.",
+	"version": "1.0.0",
+	"author": "Kaser Mahmoud",
+	"license": "MIT",
+	"engines": {
+		"node": "*"
+	},
+	"dependencies": {
+		"vscode-languageserver": "^4.1.3"
+	},
+	"scripts": {}
+}
